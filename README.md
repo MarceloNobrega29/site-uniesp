@@ -11,6 +11,7 @@ Site institucional da Faculdade UNIESP desenvolvido com React e React Bootstrap,
 - **React** - Biblioteca JavaScript para construção de interfaces
 - **React Router DOM** - Gerenciamento de rotas
 - **React Bootstrap** - Componentes de interface responsivos
+- **Axios** - Cliente HTTP para requisições à API
 - **Vite** - Build tool e servidor de desenvolvimento
 - **JavaScript (ES6+)** - Linguagem de programação
 
