@@ -1,16 +1,105 @@
-# React + Vite
+# 🎓 Site UNIESP
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto desenvolvido para a disciplina de **Frontend Avançado** do curso de **Sistemas para Internet** do UNIESP Centro Universitário, lecionada pelo professor **Kelson Almeida**.
 
-Currently, two official plugins are available:
+## 📋 Sobre o Projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Site institucional da Faculdade UNIESP desenvolvido com React e React Bootstrap, apresentando informações sobre a instituição, notícias e políticas de proteção de dados.
 
-## React Compiler
+## 🚀 Tecnologias Utilizadas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React** - Biblioteca JavaScript para construção de interfaces
+- **React Router DOM** - Gerenciamento de rotas
+- **React Bootstrap** - Componentes de interface responsivos
+- **Vite** - Build tool e servidor de desenvolvimento
+- **JavaScript (ES6+)** - Linguagem de programação
 
-## Expanding the ESLint configuration
+## 📁 Estrutura do Projeto
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
+site-uniesp/
+├── public/              # Arquivos públicos e imagens
+│   ├── noticias/       # Imagens das notícias
+│   └── uniesp.jpg      # Logo da instituição
+├── src/
+│   ├── components/     # Componentes reutilizáveis
+│   │   ├── CustomNavbar.jsx    # Barra de navegação
+│   │   ├── CustomFooter.jsx    # Rodapé
+│   │   └── BanerAd.jsx         # Banner publicitário
+│   ├── pages/          # Páginas da aplicação
+│   │   ├── Inicial.jsx         # Página inicial
+│   │   ├── Faculdade.jsx       # Sobre a faculdade
+│   │   ├── Dpo.jsx             # DPO & LGPD
+│   │   ├── Noticias.jsx        # Listagem de notícias
+│   │   └── VisualizaNoticia.jsx # Detalhes da notícia
+│   ├── App.jsx         # Componente principal
+│   └── main.jsx        # Ponto de entrada
+└── package.json        # Dependências do projeto
+```
+
+## 🎨 Funcionalidades
+
+- ✅ Navegação responsiva com menu hambúrguer em dispositivos móveis
+- ✅ Página inicial com informações institucionais
+- ✅ Sistema de notícias com listagem e visualização individual
+- ✅ Galeria de fotos nas notícias
+- ✅ Rodapé com informações de contato e links úteis
+- ✅ Design responsivo para todos os dispositivos
+- ✅ Integração com React Router para navegação SPA
+
+## 🔧 Como Executar o Projeto
+
+### Pré-requisitos
+
+- Node.js (versão 14 ou superior)
+- npm ou yarn
+
+### Instalação
+
+1. Clone o repositório:
+```bash
+git clone https://github.com/MarceloNobrega29/site-uniesp.git
+```
+
+2. Entre na pasta do projeto:
+```bash
+cd site-uniesp
+```
+
+3. Instale as dependências:
+```bash
+npm install
+```
+
+4. Execute o projeto em modo de desenvolvimento:
+```bash
+npm run dev
+```
+
+5. Acesse no navegador:
+```
+http://localhost:5173
+```
+
+## 📦 Build para Produção
+
+Para gerar a versão de produção:
+
+```bash
+npm run build
+```
+
+Os arquivos otimizados serão gerados na pasta `dist/`.
+
+## 🎓 Informações Acadêmicas
+
+- **Instituição:** UNIESP Centro Universitário
+- **Curso:** Sistemas para Internet
+- **Disciplina:** Frontend Avançado
+- **Professor:** Kelson Almeida
+- **Desenvolvedor:** Marcelo Nóbrega
+
+
+---
+
+Desenvolvido por [Marcelo Nóbrega](https://github.com/MarceloNobrega29)
